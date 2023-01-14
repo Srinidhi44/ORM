@@ -23,7 +23,7 @@ Execute Django admin and create 10 employees
 
 ## PROGRAM
 
-'''
+```
 Models.py
 
 from django.db import models
@@ -44,8 +44,7 @@ from django.contrib import admin
 from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)
 
-'''
-
+```
 
 ## OUTPUT
 
